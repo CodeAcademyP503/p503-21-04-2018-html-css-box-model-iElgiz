@@ -1,0 +1,113 @@
+#nav-bar {
+    @extend .section-padding;
+     background-image: url(../images/background.jpg);
+     height: 900px;
+    // img {
+    //     position: absolute;
+    //     z-index: -5;
+
+    // }
+       .container {
+
+        
+        .logo {
+            width: $mainWidth/4;
+            float:left;
+            height:30px;
+            @extend .inline-block;
+        }
+
+        .menu {
+            float:right;
+            width: $mainWidth/2;
+            @extend .inline-block;
+            line-height: 66px;
+            ul{
+                float:right;
+                margin:0px;
+                padding:0px; 
+
+                li{
+                    line-height:30px;
+                    list-style:none;
+                    @extend .inline-block;
+                    text-transform:uppercase;
+                    color:black;
+                    font-weight:bold;
+                    font-size: 16px;
+                    margin:0px 10px;
+                    cursor:pointer;
+                    &:hover{
+                        color:$colorGreen;
+                        border-bottom:1px solid;
+                    }
+                    &:first-child{
+                        color:$colorGreen;
+                        
+                    }
+                    
+                    &:hover i{
+                    transform: rotate(180deg);
+
+                    }
+                
+                }    
+            }  
+        }
+        .yazilar {
+            text-align: center;
+            color: #ffffff;
+            font-size: 17px;
+            h2{
+                margin-top: 308px;
+                font-size:35px;
+            }
+            h1{
+                font-size: 45px;
+            }
+        }
+        .contactus{
+            text-align: center;
+           
+
+         button{
+            width: 257px;
+            height: 51px;
+            margin-top: 46px;
+            cursor: pointer;
+            border-radius: 10px;
+            font-size: 17px;
+            color:white;
+            background: linear-gradient(to right, $colorMain,#a9dc56);
+            color: white;
+            border: none;
+            text-transform: uppercase;
+            outline: none;
+
+
+            &:hover{
+                background: $colorMain;
+            }
+         }
+        
+        }
+        .shekil1{
+            margin-top: 171px;
+            margin-left: 524px;
+            position: relative;
+            i{
+              position: absolute;
+              top: 32px;
+              left: 71px;
+              color:$colorMain;
+              box-sizing: border-box;
+              cursor: pointer;
+              font-size: 20px;
+              &:hover {
+                padding-top: 10px; 
+                transition: all .3s linear;
+                 }
+            }
+        }
+    }           
+} 

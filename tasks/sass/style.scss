@@ -1,0 +1,15 @@
+$colorGreen:rgb(169,220,86);
+$colorMain:rgb(66,183,115);
+$mainWidth:1200px;
+$mainFont: 'Arvo', serif;
+
+
+
+@import "lib/common";
+@import "lib/navbar";
+@import "lib/topbar";
+@import "lib/about";
+@import "lib/services";
+@import "lib/gallery";
+@import "lib/center";
+@import "lib/contacts";

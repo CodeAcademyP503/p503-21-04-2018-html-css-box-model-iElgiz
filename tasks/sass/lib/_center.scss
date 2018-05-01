@@ -1,0 +1,30 @@
+#center {
+    width: 100%;
+    height: 70px;
+    background: $colorMain;
+    position: relative;
+    top: 53px;
+
+    .center-top{
+        position: absolute;
+        width: 480px;
+        height: 40px;
+        top: 13px;
+        left: 525px;
+
+        i{
+            font-size: 35px;
+            color: white;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 50%;
+
+            &:hover {
+                background: $colorGreen;
+                transition: all .1s linear;
+                
+            }
+        }
+    }
+
+}

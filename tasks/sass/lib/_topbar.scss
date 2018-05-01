@@ -1,0 +1,120 @@
+#top-bar{
+    @extend .container;
+
+    .column{
+        float: left;
+        width: calc(100%/2);
+        height: 412px;
+    
+    .left-part{
+        height: 124px;
+        width: 127px;
+        border-radius: 100px;
+        border: 3px solid #dbe4e7;
+        float: left;
+        margin-top: 59px;
+        cursor: pointer;
+        &:hover{
+            background: $colorGreen;
+            transition: all .3s linear;
+            border-color:$colorGreen;
+
+        }
+
+        h1{
+        float: left;
+        margin-top: 1px;
+        padding: 38px;
+        font-size: 46px;
+        color:#dbe4e7;
+        }
+    }
+
+    h3{
+        float: left;
+        margin-top: 45px;
+        padding: 20px;
+        font-size: 18px;
+        color:$colorMain;
+        cursor: pointer;
+        &:hover{
+            color:black;
+        }
+    }
+    span{
+    float: right;
+    margin-top: -94px;
+    margin-left: 153px;
+    font-size: 16px;
+    }
+    
+ 
+    }
+    .column2{
+        float: right;
+        width: calc(100%/2);
+        height: 412px;
+
+        .right-part{
+            height: 124px;
+            width: 127px;
+            border-radius: 100px;
+            border: 3px solid #dbe4e7;
+            float: left;
+            margin-top: 59px;
+            cursor: pointer;
+            &:hover{
+                background:$colorGreen;
+                transition: all .3s linear;
+                border-color:$colorGreen;
+            }
+            
+        }
+        h1{
+            float: left;
+            margin-top: 1px;
+            padding: 38px;
+            font-size: 46px;
+            color:#dbe4e7;
+        }
+
+        h3{
+            float: left;
+            margin-top: 45px;
+            padding: 20px;
+            font-size: 18px;
+            color:$colorMain;
+            cursor: pointer;
+            &:hover{
+                color:black;
+            }
+        }
+        span{
+            float: left;
+            margin-top: -94px;
+            margin-left: 153px;
+            font-size: 16px;
+            }
+
+    }
+    .shekil2{
+        margin-left: 524px;
+        position: relative;
+        i{
+            position: absolute;
+            top: 32px;
+            left: 71px;
+            color:white;
+            box-sizing: border-box;
+            cursor: pointer;
+            font-size: 20px;
+          
+          &:hover {
+              padding-top: 10px; 
+              transition: all .3s linear;
+
+          }
+    }   }
+
+
+}

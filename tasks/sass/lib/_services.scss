@@ -1,0 +1,86 @@
+#services{
+    background: #dbe4e7;
+    height: 712px;
+    .service{
+        .cursors{
+           width:calc(100%/4);
+           height: 210px;   
+           @extend .inline-block;
+           float: left;
+           position: relative;
+
+           i{
+            position: absolute;
+            left: 122px;
+            font-size: 55px;
+            color:$colorMain;
+
+            &:hover {
+                color:$colorGreen;
+            }
+           }
+
+           h3{
+            text-align: center;
+            margin-top: 76px;
+            cursor: pointer;
+
+            &:hover{
+                color:$colorMain;
+            }
+           }
+
+           span{
+            text-align: center;
+            float: left;
+            color:#658997;
+           }
+        }
+        .shekil4{
+            margin-left: 524px;
+            position: relative;
+            i{
+                position: absolute;
+                top: 32px;
+                left: 71px;
+                color:white;
+                box-sizing: border-box;
+                cursor: pointer;
+                font-size: 20px;
+              }
+              &:hover i{
+                  padding-top: 10px; 
+                  transition: all .3s linear;
+    
+              }
+              h1{
+                font-size: 40px;
+                margin-left: -24px;
+            
+              }
+        }
+
+        
+    }
+    .shekil_contain{
+        width: 150px;
+        height: 100px;
+        left: 622px;
+        top: 46px;
+        position: relative; 
+        i{
+            position: absolute;
+            top: 32px;
+            left: 68px;
+            color:$colorMain;
+            box-sizing: border-box;
+            cursor: pointer;
+            font-size: 20px; 
+          &:hover {
+              padding-top: 10px;
+              transition: all .3s linear;
+            }
+          
+        }
+    }
+}
